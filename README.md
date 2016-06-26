@@ -8,7 +8,9 @@ All you do is run and type in your games folder name and then just wait and watc
 # Requirements
 • This will only work if you set your screen resolution to: 1366 x 768
 To check/change this you just go on:
+
 Control Panel -> Appearance and Personalisation -> Display -> Adjust Resolution
+
 Control Panel\Appearance and Personalisation\Display\Screen Resolution
 
 • Python. I used Python (2.7.11)
