@@ -42,6 +42,8 @@ while start:
     print 'Please wait whilst the banner work is being completed\nJust sit back and let me do the hard work ;)'
     raw_input('Press Enter to continue....')
     os.startfile('tools\Ohana3DS.exe')
+    os.system('cls')
+    print 'Automation in progress please wait....'
     time.sleep(5)
 
     #mouse pos to texture tab and then click x2
@@ -503,6 +505,9 @@ while start:
 
     os.system("TASKKILL /F /IM Ohana3DS.exe")
     os.system('cls')
+    print 'Creating banner.bin'
+    os.system('tools\\3dstool -c -f "output\\' + title + '\\banner.bin" -t banner --banner-dir banner')
+    print 'banner.bin file created inside output/'+title+'/banner.bin'
     print 'AutoBanner complete'
     restart = raw_input("Do you want to restart the program, type 'yes' or 'no'\n")
     if restart == "no":
