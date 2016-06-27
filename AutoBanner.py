@@ -1,9 +1,18 @@
 import os
 import time
 import ctypes
+import shutil
 
 start = True
 while start:
+    if os.path.exists("banner/backup"):
+        shutil.move("banner/backup", "1")
+        shutil.rmtree("banner")
+        shutil.move("1", "banner")
+
+    if not os.path.exists("banner/backup"):
+        shutil.copytree("banner", "banner/backup")
+    
     retry = True
     while retry:
         title = raw_input('type in your games folder name found from output/ then press enter:\n')
