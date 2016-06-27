@@ -38,7 +38,7 @@ while start:
     os.startfile('tools\Ohana3DS.exe')
     os.system('cls')
     print 'Automation in progress please wait....'
-    time.sleep(5)
+    time.sleep(3)
 
     #mouse pos to texture tab and then click x2
     ctypes.windll.user32.SetCursorPos(295, 180)
@@ -119,11 +119,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -150,11 +150,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -181,11 +181,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -212,11 +212,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -243,11 +243,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -274,11 +274,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -305,7 +305,7 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
@@ -336,11 +336,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -367,11 +367,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -398,11 +398,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -429,11 +429,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -460,11 +460,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     os.system("TASKKILL /F /IM Ohana3DS.exe")
     os.system('cls')
