@@ -1,7 +1,6 @@
 import os
 import time
 import ctypes
-import shutil
 import sys
 
 start = True
