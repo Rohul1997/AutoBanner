@@ -1,21 +1,14 @@
 import os
 import time
 import ctypes
-import shutil
+import sys
 
 start = True
 while start:
-    if os.path.exists("banner/backup"):
-        shutil.move("banner/backup", "1")
-        shutil.rmtree("banner")
-        shutil.move("1", "banner")
-
-    if not os.path.exists("banner/backup"):
-        shutil.copytree("banner", "banner/backup")
-    
     retry = True
     while retry:
-        title = raw_input('type in your games folder name found from output/ then press enter:\n')
+        #title = raw_input('type in your games folder name found from output/ then press enter:\n')
+        title = sys.argv[1]
         if os.path.exists("output/"+title):
             os.system('cls')
             print "output/"+title+" folder found"
@@ -39,12 +32,12 @@ while start:
     Lclick = 'ctypes.windll.user32.mouse_event(2, 0, 0, 0,0), ctypes.windll.user32.mouse_event(4, 0, 0, 0,0)'
 
     #open ohana
-    print 'Please wait whilst the banner work is being completed\nJust sit back and let me do the hard work ;)'
-    raw_input('Press Enter to continue....')
+    print 'Please wait whilst the banner work is being completed\nJust sit back, do not touch anything and let me do the hard work ;)'
+    raw_input('Press Enter to continue...')
     os.startfile('tools\Ohana3DS.exe')
     os.system('cls')
     print 'Automation in progress please wait....'
-    time.sleep(5)
+    time.sleep(3)
 
     #mouse pos to texture tab and then click x2
     ctypes.windll.user32.SetCursorPos(295, 180)
@@ -125,11 +118,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -156,11 +149,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -187,11 +180,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -218,11 +211,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -249,11 +242,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -280,11 +273,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -311,46 +304,15 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
     Clb(cwd + "\\banner\\banner8.bcmdl")
-    time.sleep(0.5)
-
-    exec paste
-    time.sleep(0.5)
-
-    exec importB
-    exec Lclick
-    Clb(cwd + "\\output\\" + title + "\\USA_EN2.png")
-    time.sleep(0.5)
-
-    exec paste
-    time.sleep(0.5)
-
-    #mouse pos to EUR_EN3 and then import
-    ctypes.windll.user32.SetCursorPos(350, 140)
-    exec Lclick
-    exec importB
-    exec Lclick
-    Clb(cwd + "\\output\\" + title + "\\EUR_EN3.png")
-    time.sleep(0.5)
-
-    exec paste
-    time.sleep(1)
-
-    exec saveB
-    exec Lclick
-    time.sleep(0.5)
-
-    exec openB
-    exec Lclick
-    Clb(cwd + "\\banner\\banner9.bcmdl")
     time.sleep(0.5)
 
     exec paste
@@ -373,11 +335,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -404,11 +366,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -435,11 +397,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -466,11 +428,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
@@ -497,11 +459,11 @@ while start:
     time.sleep(0.5)
 
     exec paste
-    time.sleep(1)
+    time.sleep(1.5)
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     os.system("TASKKILL /F /IM Ohana3DS.exe")
     os.system('cls')
@@ -509,8 +471,4 @@ while start:
     os.system('tools\\3dstool -c -f "output\\' + title + '\\banner.bin" -t banner --banner-dir banner')
     print 'banner.bin file created inside output/'+title+'/banner.bin'
     print 'AutoBanner complete'
-    restart = raw_input("Do you want to restart the program, type 'yes' or 'no'\n")
-    if restart == "no":
-      start = False
-    elif restart == "yes":
-      os.system('cls')
+    start = False
