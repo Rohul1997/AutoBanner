@@ -309,42 +309,11 @@ while start:
 
     exec saveB
     exec Lclick
-    time.sleep(0.5)
+    time.sleep(1)
 
     exec openB
     exec Lclick
     Clb(cwd + "\\banner\\banner8.bcmdl")
-    time.sleep(0.5)
-
-    exec paste
-    time.sleep(0.5)
-
-    exec importB
-    exec Lclick
-    Clb(cwd + "\\output\\" + title + "\\USA_EN2.png")
-    time.sleep(0.5)
-
-    exec paste
-    time.sleep(0.5)
-
-    #mouse pos to EUR_EN3 and then import
-    ctypes.windll.user32.SetCursorPos(350, 140)
-    exec Lclick
-    exec importB
-    exec Lclick
-    Clb(cwd + "\\output\\" + title + "\\EUR_EN3.png")
-    time.sleep(0.5)
-
-    exec paste
-    time.sleep(1)
-
-    exec saveB
-    exec Lclick
-    time.sleep(0.5)
-
-    exec openB
-    exec Lclick
-    Clb(cwd + "\\banner\\banner9.bcmdl")
     time.sleep(0.5)
 
     exec paste
