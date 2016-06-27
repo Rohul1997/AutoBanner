@@ -7,6 +7,12 @@ This is something that I wrote that does all of the Ohana3DS banner work automat
 Download AutoBanner.py and place it inside BlargVC folder where the banner.bat, make.bat and update.bat files a located.
 Before running Autobanner make sure you create the banner images by running banner.bat. When it asks if you want to run Ohana3DS just close the command window. Then you run AutoBanner.py and type in your games folder name and press enter. Finally just wait and watch and it should do all of the work for you.
 
+If you start to see things go wrong hold ALT+F4 until Ohana3DS and AutoBanner.py closes.
+
+After AutoBanner.py completes, just run make.bat and follow the steps from there.
+
+Here's a video https://www.youtube.com/watch?v=CoisYE8OW-A
+
 # Requirements
 • This will only work if you set your screen resolution to: 1366 x 768
 
@@ -17,5 +23,4 @@ Control Panel -> Appearance and Personalisation -> Display -> Adjust Resolution
 Control Panel\Appearance and Personalisation\Display\Screen Resolution
 
 • Python. I used Python (2.7.11)
-
-Here's a video https://www.youtube.com/watch?v=CoisYE8OW-A
+You will also need to set C:\Python27 and C:\Python27\scripts to your path
