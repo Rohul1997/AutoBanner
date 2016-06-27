@@ -1,13 +1,13 @@
 # AutoBanner
-For BlargVC SNES from here https://github.com/Ryuzaki-MrL/blargVC
+For this to work you will need BlargVC SNES from here: https://github.com/Ryuzaki-MrL/blargVC
 
 This is something that I wrote that does all of the Ohana3DS banner work automatically. I made this to work with BlargVC SNES. The process would normally take 5-10 mins but with this script it will take about a minute.
 
 # Usage
 Download AutoBanner.py and place it inside BlargVC folder where the banner.bat, make.bat and update.bat files a located.
-Before running Autobanner make sure you create the banner images by running banner.bat. When it asks if you want to run Ohana3DS just close the command window. Then you run AutoBanner.py and type in your games folder name and press enter. Finally just wait and watch and it should do all of the work for you.
+Just run banner.bat and go through the process of making the banner. After banner.bat finishes making the images, it automatically run AutoBanner.py. After that just type in your games folder name and press enter. Finally just wait and watch and it should do all of the work for you.
 
-If you start to see things go wrong hold ALT+F4 until Ohana3DS and AutoBanner.py closes.
+If you start to see things go wrong press ALT+F4 until Ohana3DS and AutoBanner.py closes.
 
 After AutoBanner.py completes, just run make.bat and follow the steps from there.
 
