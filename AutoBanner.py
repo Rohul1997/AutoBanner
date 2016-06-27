@@ -2,6 +2,7 @@ import os
 import time
 import ctypes
 import shutil
+import sys
 
 start = True
 while start:
@@ -15,7 +16,8 @@ while start:
     
     retry = True
     while retry:
-        title = raw_input('type in your games folder name found from output/ then press enter:\n')
+        #title = raw_input('type in your games folder name found from output/ then press enter:\n')
+        title = sys.argv[1]
         if os.path.exists("output/"+title):
             os.system('cls')
             print "output/"+title+" folder found"
@@ -39,8 +41,8 @@ while start:
     Lclick = 'ctypes.windll.user32.mouse_event(2, 0, 0, 0,0), ctypes.windll.user32.mouse_event(4, 0, 0, 0,0)'
 
     #open ohana
-    print 'Please wait whilst the banner work is being completed\nJust sit back and let me do the hard work ;)'
-    raw_input('Press Enter to continue....')
+    print 'Please wait whilst the banner work is being completed\nJust sit back, do not touch anything and let me do the hard work ;)'
+    raw_input('Press Enter to continue...')
     os.startfile('tools\Ohana3DS.exe')
     os.system('cls')
     print 'Automation in progress please wait....'
@@ -509,8 +511,4 @@ while start:
     os.system('tools\\3dstool -c -f "output\\' + title + '\\banner.bin" -t banner --banner-dir banner')
     print 'banner.bin file created inside output/'+title+'/banner.bin'
     print 'AutoBanner complete'
-    restart = raw_input("Do you want to restart the program, type 'yes' or 'no'\n")
-    if restart == "no":
-      start = False
-    elif restart == "yes":
-      os.system('cls')
+    start = False
