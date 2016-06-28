@@ -11,7 +11,8 @@ If you start to see things go wrong press ALT+F4 until Ohana3DS and AutoBanner.p
 
 After AutoBanner.py completes, just run make.bat and follow the steps from there.
 
-Here's a video https://www.youtube.com/watch?v=CoisYE8OW-A
+Here's a video: https://www.youtube.com/watch?v=CoisYE8OW-A
+Better video of the whole process: https://youtu.be/LrLoqFwXRDw
 
 # Requirements
 • This will only work if you set your screen resolution to: 1366 x 768
